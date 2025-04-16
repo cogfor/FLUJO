@@ -35,7 +35,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/cogfor/flujo
+          images: ghcr.io/primedio/flujo
           tags: |
             type=raw,value=${{ github.ref_name }}
             type=sha,format=long,prefix=${{ github.ref_name }}-
